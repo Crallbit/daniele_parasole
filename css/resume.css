@@ -148,6 +148,14 @@ a {
 	{
 		font-size: 2rem;
 	}
+	
+	section.resume-section 
+	{
+		border-bottom: 1px solid #dee2e6;
+		padding-top: 1rem !important;
+		padding-bottom: 5rem !important; 
+		width: 100%;
+	}
 
 }
 
