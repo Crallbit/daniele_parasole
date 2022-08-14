@@ -143,6 +143,11 @@ a {
 	{
 		font-size: 3rem;
 	}
+	
+	.navbar-toggler 
+	{
+		font-size: 2rem;
+	}
 
 }
 
