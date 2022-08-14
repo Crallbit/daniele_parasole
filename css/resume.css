@@ -115,10 +115,17 @@ a {
     color: #b6c3d5; }
 	
 	
-/*smartphones mobiles (portrait)*/
+/*smartphones mobiles*/
 @media only screen and (max-width:20em)
 {
-	
+	body 
+	{
+		font-family: 'Open Sans', serif;
+		padding-top: 54px;
+		color: #555c63; 
+		font-size: 1.5em;
+	}
+  
 	#sideNav {
 		text-align: center !important;
 		position: fixed !important;
