@@ -113,3 +113,13 @@ a {
   color: #1E64B6; }
   a:hover, a:focus, a:active {
     color: #b6c3d5; }
+	
+	
+/*smartphones mobiles (portrait)*/
+@media (min-width: 320px) and (max-width: 480px)
+{
+	section.resume-section {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important; } }
+}
+
