@@ -116,10 +116,21 @@ a {
 	
 	
 /*smartphones mobiles (portrait)*/
-@media (min-width: 320px) and (max-width: 480px)
+@media (min-width: 370px) and (max-width: 480px)
 {
-	section.resume-section {
-    padding-top: 5rem !important;
-    padding-bottom: 5rem !important; } }
-}
+	
+	#sideNav {
+		text-align: center !important;
+		position: fixed !important;
+		top: 0;
+		left: 0;
+		padding: 30px !important;
+	}
 
+	#sideNav .h1
+	{
+		font-size: 4rem !important;
+		line-height: 5rem !important;
+	}
+
+}
