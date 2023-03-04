@@ -1,18 +1,3 @@
-//Rewrite to www
-Options +FollowSymLinks
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^crallbit.com[nc]
-RewriteRule ^(.*)$ http://www.crallbit.com/$1 [r=301,nc]
-
-//301 Redirect Old File
-//Redirect 301 as asd
-
-//Custom 400 errors
-//ErrorDocument 400 asd
-
-//Prevent viewing of .htaccess file
-<Files .htaccess>
-order allow,deny
-deny from all
-</Files>
- 
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
